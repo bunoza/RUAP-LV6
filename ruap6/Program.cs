@@ -68,7 +68,7 @@ namespace CallRequestResponseService
                 {
                     string result = await response.Content.ReadAsStringAsync();
                     Console.WriteLine("Result: {0}", result);
-                    //System.Threading.Thread.Sleep(5000);
+                    System.Threading.Thread.Sleep(50000);
                 }
                 else
                 {
